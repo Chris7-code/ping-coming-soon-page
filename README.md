@@ -1,26 +1,42 @@
-# 🚕🚓 🚖 preview card component
+# ⏳⏳⌛️ Ping coming soon page
 
-![Design preview for the cars preview card component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript in some cases.**
+Thanks for checking out this front-end coding challenge.
+
+[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+
+**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
 ## The challenge
 
-Your challenge is to build out this 3-column preview card component and get it looking as close to the design as possible.
+Your challenge is to build out this Coming Soon page and get it looking as close to the design as possible.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Challenge checklist:
 
-Challenge checklist:
+- Your users should be able to view the optimal layout for the site depending on their device's screen size
+- Your users should be able to see hover states for all interactive elements on the page
+- Submit their email address using an `input` field
+- Receive an error message when the `form` is submitted if:
+  - The `input` field is empty. The message for this error should say _"Whoops! It looks like you forgot to add your email"_
+  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Please provide a valid email address"_
+- Use CSS grid to create the layout of this web page
 
-- Your users should be able to view the optimal layout depending on their device's screen size
-- Your users should be able to see hover states for interactive elements
-- The page should have a very light grey color as specified in the challenge style guide.
-- There should be three cards
-- Cards should be have three different colors
-- The learn more buttons' text should be transparent so that the background is seen as the text color.
-- Cards should stack on top of each other on mobile.
+#### Page content
+
+To make it easy for you to write your HTML faster, here's all the text you'll need in your markup for this challenge:
+
+```
+We are launching soon!
+
+Subscribe and get notified
+
+Notify Me
+
+&copy; Copyright Ping. All rights reserved.
+```
 
 ## Where to find everything
 
@@ -77,4 +93,3 @@ const proudOfThisFunc = () => {
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 **Have fun building!** 🚀
-
